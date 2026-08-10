@@ -162,16 +162,22 @@ window.TIMELINE_DATA = [
     description: "..."
   },
   {
-    date: "??? à dater",
+    date: "17 février 2025",
     icon: "🫂",
     title: "Meilleurs amis",
-    description: "..."
+    description: "Se soir la je t'es annoncé que pour moi tu était ma meilleur amie"
+  },
+   {
+    date: "27 janvier 2024",
+    icon: "🥲",
+    title: "Premier moment emotion",
+    description: "Se soir la, on c'etait pas parler pendant 3j et on voulait pas se quitté tellement on c'etait manquer."
   },
   {
-    date: "??? à dater",
+    date: "28 janvier 2024",
     icon: "🥺",
-    title: "Petit surnom mimi",
-    description: "..."
+    title: "Premier vrai surnom",
+    description: "Mon chacal préferer fut le premier des nombreux surnom que tu ma donné et toi c'etait bebou"
   },
   {
     date: "6 juillet 2024",
@@ -192,10 +198,10 @@ window.TIMELINE_DATA = [
     description: "Sans filtre."
   },
   {
-    date: "??? à dater",
+    date: "6 mai 2026",
     icon: "😳",
     title: "Premier \"je t'aime\"",
-    description: "..."
+    description: "Se soir la tu ma fait un craquage pour de la physique chimie..."
   },
   {
     date: "13 juin 2026",
