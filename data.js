@@ -143,19 +143,19 @@ window.TIMELINE_DATA = [
     title: "Premier compliment",
     description: "Le premier compliment que tu ma fait c'etait pour mon dessin de monsieur jack"
   },
-   {
+  {
     date: "14 novembre 2023",
     icon: "💬",
     title: "Mon clone ?",
     description: "Le premier surnom qu'on s'est donné."
   },
-   {
+  {
     date: "27 janvier 2024",
     icon: "🥲",
     title: "Premier moment emotion",
     description: "Se soir la, on c'etait pas parler pendant 3j et on voulait pas se quitté tellement on c'etait manquer."
   },
-   {
+  {
     date: "28 janvier 2024",
     icon: "🥺",
     title: "Premier vrai surnom",
