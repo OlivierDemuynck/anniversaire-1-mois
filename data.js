@@ -134,7 +134,7 @@ window.TIMELINE_DATA = [
   {
     date: "6 octobre 2023",
     icon: "✨",
-    title: "Le debut d'une histoire,
+    title: "Le debut d'une histoire",
     description: "Le soir ou on c'est rencontrer"
   },
   {
