@@ -150,10 +150,10 @@ window.TIMELINE_DATA = [
     description: "..."
   },
   {
-    date: "??? à dater",
+    date: "24 juillet 2024",
     icon: "📞",
-    title: "Premier vocal / appel",
-    description: "..."
+    title: "Premier appel",
+    description: "Premiere fois que j'entender ta douce voix "
   },
   {
     date: "??? à dater",
