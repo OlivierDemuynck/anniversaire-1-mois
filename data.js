@@ -132,6 +132,20 @@ window.SITE_DATA = {
    ============================================================ */
 window.TIMELINE_DATA = [
   {
+    date: "6 octobre 2023",
+    icon: "✨",
+    title: "Le debut d'une histoire,
+    description: "Le soir ou on c'est rencontrer"
+  }
+window.TIMELINE_DATA = [
+  {
+    date: "14 novembre 2023",
+    icon: "💕",
+    title: "Mon clone ?",
+    description: "Le premier surnom qu'on c'est donné"
+  }
+window.TIMELINE_DATA = [
+  {
     date: "13 juin 2026",
     icon: "💕",
     title: "Officiellement ensemble",
