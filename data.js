@@ -174,13 +174,13 @@ window.TIMELINE_DATA = [
     description: "..."
   },
   {
-    date: "??? à dater",
+    date: "6 juillet 2024",
     icon: "💥",
     title: "Première dispute",
-    description: "..."
+    description: ""
   },
   {
-    date: "??? à dater",
+    date: "7 juillet 2024",
     icon: "🫶",
     title: "Première réconciliation",
     description: "..."
