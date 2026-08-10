@@ -138,15 +138,39 @@ window.TIMELINE_DATA = [
     description: "On a commencé à traîner sur le jeu ensemble."
   },
   {
+    date: "6 octobre 2023",
+    icon: "🥰",
+    title: "Premier compliment",
+    description: "Le premier compliment que tu ma fait c'etait pour mon dessin de monsieur jack"
+  },
+   {
     date: "14 novembre 2023",
     icon: "💬",
     title: "Mon clone ?",
     description: "Le premier surnom qu'on s'est donné."
   },
+   {
+    date: "27 janvier 2024",
+    icon: "🥲",
+    title: "Premier moment emotion",
+    description: "Se soir la, on c'etait pas parler pendant 3j et on voulait pas se quitté tellement on c'etait manquer."
+  },
+   {
+    date: "28 janvier 2024",
+    icon: "🥺",
+    title: "Premier vrai surnom",
+    description: "Mon chacal préferer fut le premier des nombreux surnom que tu ma donné et toi c'etait bebou"
+  },
   {
-    date: "??? à dater",
-    icon: "🥰",
-    title: "Premier compliment",
+    date: "6 juillet 2024",
+    icon: "💥",
+    title: "Première dispute",
+    description: ""
+  },
+  {
+    date: "7 juillet 2024",
+    icon: "🫶",
+    title: "Première réconciliation",
     description: "..."
   },
   {
@@ -167,30 +191,6 @@ window.TIMELINE_DATA = [
     title: "Meilleurs amis",
     description: "Se soir la je t'es annoncé que pour moi tu était ma meilleur amie"
   },
-   {
-    date: "27 janvier 2024",
-    icon: "🥲",
-    title: "Premier moment emotion",
-    description: "Se soir la, on c'etait pas parler pendant 3j et on voulait pas se quitté tellement on c'etait manquer."
-  },
-  {
-    date: "28 janvier 2024",
-    icon: "🥺",
-    title: "Premier vrai surnom",
-    description: "Mon chacal préferer fut le premier des nombreux surnom que tu ma donné et toi c'etait bebou"
-  },
-  {
-    date: "6 juillet 2024",
-    icon: "💥",
-    title: "Première dispute",
-    description: ""
-  },
-  {
-    date: "7 juillet 2024",
-    icon: "🫶",
-    title: "Première réconciliation",
-    description: "..."
-  },
   {
     date: "??? à dater",
     icon: "📸",
@@ -201,13 +201,13 @@ window.TIMELINE_DATA = [
     date: "6 mai 2026",
     icon: "😳",
     title: "Premier \"je t'aime\"",
-    description: "Se soir la tu ma fait un craquage pour de la physique chimie..."
+    description: "Se soir la tu a fait un craquage pour de la physique chimie, et tu ma dit je t'aime.. Sa ma fait tellement fondre et sa continue de le faire encore et encore.."
   },
   {
     date: "13 juin 2026",
     icon: "💕",
     title: "Officiellement ensemble",
-    description: "Le jour où c'est devenu officiel."
+    description: "Le jour où le déni a pris fin des deux cotés lors de notre premier sleepcall"
   }
 ];
 
