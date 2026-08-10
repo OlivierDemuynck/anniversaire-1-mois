@@ -132,7 +132,7 @@ window.TIMELINE_DATA = [
     description: "Le soir où on s'est rencontré."
   },
   {
-    date: "??? à dater",
+    date: "6 octobre 2023",
     icon: "🎮",
     title: "Premières parties ensemble",
     description: "On a commencé à traîner sur le jeu ensemble."
