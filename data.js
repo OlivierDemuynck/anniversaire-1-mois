@@ -150,6 +150,12 @@ window.TIMELINE_DATA = [
     description: "Le premier surnom qu'on s'est donné."
   },
   {
+    date: "Janvier 2024",
+    icon: "🤝",
+    title: "Devenus amis",
+    description: "Je pense que a se moment là on etait ami , on se l'est pas dit clairement mais javais se resenti en lisant les message"
+  },
+  {
     date: "27 janvier 2024",
     icon: "🥲",
     title: "Premier moment emotion",
@@ -165,25 +171,19 @@ window.TIMELINE_DATA = [
     date: "6 juillet 2024",
     icon: "💥",
     title: "Première dispute",
-    description: ""
+    description: "Je t'avais fait attendre et j'etait en auto farm sur fishing simulator.."
   },
   {
     date: "7 juillet 2024",
     icon: "🫶",
     title: "Première réconciliation",
-    description: "..."
+    description: "On s'est excusé tout les deux puis on a jouer a deux"
   },
   {
     date: "24 juillet 2024",
     icon: "📞",
     title: "Premier appel",
     description: "Premiere fois que j'entender ta douce voix "
-  },
-  {
-    date: "??? à dater",
-    icon: "🤝",
-    title: "Devenus amis",
-    description: "..."
   },
   {
     date: "17 février 2025",
