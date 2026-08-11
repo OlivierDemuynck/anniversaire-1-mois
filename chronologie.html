@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1a0a2e">
+<title>Notre chronologie 🌸</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Lato:wght@300;400&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg class="flower-deco" style="top:-30px;left:-30px;opacity:0.10;transform:rotate(-15deg)" width="180" height="180" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <g id="chrono-flower"></g>
+</svg>
+
+<div class="hero" style="padding-top:50px">
+  <div class="hero-date">notre histoire</div>
+  <div class="hero-month" style="font-size:38px">Chronologie</div>
+  <div class="hero-subtitle">chaque étape compte 🌸</div>
+</div>
+
+<div class="sep" style="margin-top:8px">
+  <div class="sep-line"></div>
+  <span style="color:rgba(200,80,130,0.5);font-size:10px">♥</span>
+  <div class="sep-line"></div>
+</div>
+
+<div class="content" style="margin-top:30px">
+  <div class="timeline" id="timeline"></div>
+</div>
+
+<div style="text-align:center;position:relative;z-index:1">
+  <a href="index.html" class="back-link">← retour</a>
+</div>
+
+<script src="data.js"></script>
+<script src="mc-toast.js"></script>
+<script>
+const latest = window.SITE_DATA.months[window.SITE_DATA.months.length - 1];
+document.documentElement.style.setProperty('--c1', latest.theme.c1);
+document.documentElement.style.setProperty('--c2', latest.theme.c2);
+document.documentElement.style.setProperty('--glow', latest.theme.glow);
+
+const CHRONO_FLOWERS = {
+  lys: `<g fill="none" stroke="rgba(var(--c1),1)" stroke-width="1.5"><ellipse cx="100" cy="50" rx="16" ry="42"/><ellipse cx="58" cy="85" rx="13" ry="32" transform="rotate(-35 58 85)"/><ellipse cx="142" cy="85" rx="13" ry="32" transform="rotate(35 142 85)"/><line x1="100" y1="100" x2="100" y2="185"/></g>`,
+  tulipe: `<g fill="none" stroke="rgba(var(--c1),1)" stroke-width="1.5"><path d="M100,15 C108,15 114,30 112,47 C111,57 106,67 100,73 C94,67 89,57 88,47 C86,30 92,15 100,15 Z"/><path d="M85,20 C93,20 99,35 97,52 C96,62 91,72 85,78 C79,72 74,62 73,52 C71,35 77,20 85,20 Z" transform="rotate(-22 85 49)"/><path d="M115,20 C123,20 129,35 127,52 C126,62 121,72 115,78 C109,72 104,62 103,52 C101,35 107,20 115,20 Z" transform="rotate(22 115 49)"/><line x1="100" y1="73" x2="100" y2="185"/></g>`
+};
+document.getElementById('chrono-flower').innerHTML = CHRONO_FLOWERS[latest.flowerType] || CHRONO_FLOWERS.lys;
+
+const timelineEl = document.getElementById('timeline');
+window.TIMELINE_DATA.forEach((item, i) => {
+  const isLast = i === window.TIMELINE_DATA.length - 1;
+  const div = document.createElement('div');
+  div.className = 'timeline-item';
+  div.innerHTML = `
+    <div class="timeline-dot-col">
+      <div class="timeline-dot"></div>
+      ${isLast ? '' : '<div class="timeline-connector"></div>'}
+    </div>
+    <div class="timeline-card" style="animation-delay:${i * 0.08}s">
+      <div class="timeline-date">${item.date}</div>
+      <div class="timeline-title-row">
+        <span class="timeline-icon-badge">${item.icon}</span>
+        <span class="timeline-title">${item.title}</span>
+      </div>
+      <div class="timeline-desc">${item.description}</div>
+    </div>`;
+  timelineEl.appendChild(div);
+});
+</script>
+</body>
+</html>
