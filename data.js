@@ -95,7 +95,7 @@ window.SITE_DATA = {
       number: 2,
       dateRange: "13 juillet → 13 août 2026",
       subtitle: "et ça continue de grandir",
-      counterSub: "À compléter avec toi",
+      counterSub: "Jusqu'a l'eternité",
       theme: {
         c1: "215,45,55",    // rouge tulipe
         c2: "225,150,60",   // doré chaud, en accord avec le rouge
@@ -106,11 +106,74 @@ window.SITE_DATA = {
       poem: [
         {
           lines: [
-            "( à écrire — nouveau poème pour le 2 mois )"
+            "​Mon amour, depuis que je suis avec toi, je me sens comme un Roi,",
+            "L’élu de ton coeur mais aussi ton plus grand admirateur,",
+            "T’es la meilleure des copine, je veut finir ma vie avec toi."
+          ]
+        },
+        {
+         special: true,
+          lines: [
+            "Avant toi, j’avancer sans trop savoir où aller,",
+            "Aujourd'hui j’ai trouvé ma destiné et elle est a tes cotés,",
+            "Il n’y a aucun doute, je sais ou je veut aller,",
+            "Et c’est dans tes bras que je veux me reposer."
+          ]
+        },
+        {
+          lines: [
+​            "Deux mois déjà que nous somme ensemble,",
+            "Deux mois ou le temps semble s’etre arreter,",
+            "Dans ces nuits trop courtes où nos mot d’amoureux se confonde,",
+            "La distance est là, lourde et souvent pesante,",
+            "Mais notre complicité la rend presque impuissante."
+          ]
+        },
+        {
+          special: true,
+          lines: [
+            "On s'appelle, on rigole, on refait tout le monde,",
+            "Et plus le temps passe, plus mon amour abonde.",
+​            "Tu es devenue ma source de bonheur,",
+            "Celle qui suffit à illuminer mes heures."
+          ]
+        },
+       {
+          lines: [
+​            "Mon refuge secret quand le monde est trop lourd,",
+            "Ma personne préférée, mon repère de toujours.",
+            "T’es mon quotidien, ma pensée au réveil,",
+            "Celle qui fait briller mes nuits meme quand je n’est pas sommeil."
+          ]
+        },
+        {
+          special: true,
+          lines: [
+​            "Et bientôt viendra enfin ce fameux 24 août,",
+            "Ce jour où la distance s’effacera entre nous.",
+            "Après tant d’attente, de kilomètres et de détours,",
+            "Je pourrai enfin te serrer très fort, ma Julie d’amour."
+          ]
+        },
+       {
+          lines: [
+​            "Poser mes yeux sur toi pour la premiere fois, sentir ton souffle, ta peau,",
+            "Et te dire en face à quel point tu es belle, qu’etre avec toi, sa m'émerveille."
+          ]
+        },
+        {
+          special: true,
+          lines: [
+​            "Deux mois seulement, et pourtant tant de souvenirs,",
+            "Tant de choses vécues, tant d'autres à construire.",
+            "Ce n'est que le tout début de notre grande histoire,",
+            "Si aujourd'hui mon cœur bat pour toi comme un fou,",
+            "J'ai hâte d'être à demain pour t'aimer par-dessus tout"
           ]
         }
       ],
-      secretMessage: "( petit mot secret du 2 mois à écrire )",
+
+      secretMessage: "Le 24 sera la première fois que nos yeux se rencontreront vraiment,<br>mais crois-moi, l'idée de pouvoir enfin te serrer dans mes bras <br> me chamboule déjà...",
       photos: []
     }
   ]
