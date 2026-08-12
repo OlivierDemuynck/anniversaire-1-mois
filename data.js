@@ -170,8 +170,7 @@ window.SITE_DATA = {
             "Si aujourd'hui mon cœur bat pour toi comme un fou,",
             "J'ai hâte d'être à demain pour t'aimer par-dessus tout"
           ]
-        }
-      ],
+        },
 
       secretMessage: "Le 24 sera la première fois que nos yeux se rencontreront vraiment,<br>mais crois-moi, l'idée de pouvoir enfin te serrer dans mes bras <br> me chamboule déjà...",
       photos: []
