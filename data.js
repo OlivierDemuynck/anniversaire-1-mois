@@ -128,25 +128,25 @@ window.SITE_DATA = {
 window.TIMELINE_DATA = [
   {
     date: "6 octobre 2023",
-    icon: "✨",
+    icon: "📖",
     title: "Le début d'une histoire",
-    description: "Le soir où on s'est rencontré."
+    description: "Le soir où on s'est rencontrer"
   },
   {
     date: "6 octobre 2023",
     icon: "🎮",
     title: "Premières parties ensemble",
-    description: "On a commencé à traîner sur le jeu ensemble."
+    description: "On a commencer à traîner sur les jeux ensemble."
   },
   {
     date: "6 octobre 2023",
-    icon: "🥰",
+    icon: "🤗",
     title: "Premier compliment",
     description: "Le premier compliment que tu m'a fait c'était pour mon dessin de monsieur jack"
   },
   {
     date: "14 novembre 2023",
-    icon: "💬",
+    icon: "👽",
     title: "Mon clone ?",
     description: "Le premier surnom qu'on s'est donné."
   },
@@ -193,10 +193,10 @@ window.TIMELINE_DATA = [
     description: "Ce soir là je t'ai annoncé que pour moi tu étais ma meilleure amie"
   },
   {
-    date: "??? à dater",
-    icon: "📸",
-    title: "Premier face reveal",
-    description: "Sans filtre."
+    date: "28 février 2026",
+    icon: "😍",
+    title: "Premier face reveal sans filtre",
+    description: "La premiere photo que j'ai recu de toi sans filtre (avec zoé derriere) et juste WOOOOOW c'est un canon"
   },
   {
     date: "6 mai 2026",
